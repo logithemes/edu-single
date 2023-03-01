@@ -336,9 +336,7 @@
 		width: 100%;
 	}
 
-	.who-we-are-text li:before {
-		display: none;
-	}
+	
 
 	.join-edu .leaf, .join-edu .leaf1 {
 		display: none;
@@ -496,13 +494,6 @@
 		padding-top: 10px;
 	}
 
-
-
-	.who-we-are-text {
-		padding: 20px;
-		margin-bottom: 0;
-		margin-top: 0;
-	}
 
 	.who-we-are {
 		padding-bottom: 80px;
@@ -1185,9 +1176,7 @@
 		width: 280px !important;
 	}
 
-	.who-we-are-text ul {
-		flex-direction: column;
-	}
+	
 
 	.edu-tips {
 		padding-bottom: 25px;
@@ -1757,9 +1746,7 @@
 		padding: 10px 0 40px 0;
 	}
 
-	.who-we-are-text li {
-		margin: 0;
-	}
+	
 
 	.we-img2 {
 		display: none;
