@@ -1639,7 +1639,7 @@ a {
     float: left;
     width: 100%;
     position: relative;
-    background: #fff;
+    /* background: #fff; */
 }
 
 
@@ -1658,7 +1658,7 @@ a {
 .brand-logo span{
     font-size: 20px;
     position: relative;
-    background: #fff;
+    background: #f9f9fd;
     z-index: 1;
     padding: 0 50px;
 }
@@ -7569,9 +7569,9 @@ line-height: 50px;
 .who-we-are {
     display: flex;
     position: relative;
-    background: #fff;
-    padding: 120px 0 130px 0;
-    overflow: hidden;
+    /* background: #fff; */
+    padding: 50px 0 130px 0;
+    /* overflow: hidden; */
 }
 
 
@@ -7660,6 +7660,7 @@ line-height: 50px;
     font-weight: 500;
     line-height: 25px;
     margin: 0 0 0  20px;
+    padding-right: 32px;
 }
 
 
