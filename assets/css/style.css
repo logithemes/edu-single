@@ -146,6 +146,7 @@ img{max-width: 100%;height: auto;}
 p {
     font-size: 14px;
     line-height: 25px;
+    margin: 20px 0;
 }
 
 ::placeholder {
@@ -724,7 +725,7 @@ a {
     position: relative;
     padding: 0 0 10px 6px;
     width: 100%;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     position: relative;
     z-index: 1;
 }
@@ -2148,7 +2149,7 @@ a {
     animation: rotate 10s infinite linear;
     border-radius: 10px;
 }
-.popular-courses::after{position: absolute;content: "";top: 0;left: 0;background: url(../images/shapes/5.svg);width: 55%;height: 100%;background-size: cover;opacity: .4;}
+.popular-courses::after{position: absolute;content: "";top: 0;left: 0;background: url(../images/ed-img/20.jpg);width: 40%;height: 100%;background-size: cover;opacity: 00.1;background-position: bottom;}
 
 .courses-box {
     float: left;
@@ -2174,12 +2175,15 @@ a {
 .courses-box ul {
     padding: 0;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .courses-box li {
-    float: left;
-    width: 25%;
-    padding: 20px;
+    /* float: left; */
+    width: 100%;
+    padding: 25px;
     /* text-align: center; */
     z-index: 1;
     position: relative;
@@ -2225,7 +2229,7 @@ a {
 }
 
 .courses-inn {
-    box-shadow: 0 3px 21px 0 #0000000d;
+    box-shadow: 0 3px 21px 0 #00000014;
     background: #fff;
     /* border-radius: 10px; */
     padding: 30px 30px 30px 50px;
@@ -2241,7 +2245,16 @@ a {
     float: left;
     border-radius: 5px;
 }
-
+.bg-p-courses{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 40%;
+    height: 100%;
+    background: #fff;
+    opacity: 00.1;
+}
 .courses-inn:hover .cour-img:before {
     background: #dff1ee;
     transition: all 0.4s ease;
@@ -2265,6 +2278,7 @@ a {
     /* border: 1px solid #e5dfec; */
     background: #3c3ddc;
     border-radius: 5px;
+    opacity: 0;
 }
 
 
