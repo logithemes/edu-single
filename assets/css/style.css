@@ -2149,14 +2149,9 @@ a {
     animation: rotate 10s infinite linear;
     border-radius: 10px;
 }
-.popular-courses::after{position: absolute;content: "";top: 0;left: 0;background: url(../images/ed-img/20.jpg);width: 40%;height: 100%;background-size: cover;opacity: 00.1;background-position: bottom;}
+.popular-courses::after{position: absolute;content: "";top: 0;left: 0;background: url(../images/ed-img/20.jpg);width: 40%;height: 100%;background-size: cover;opacity: 00.1;background-position: bottom;opacity: 0;}
 
-.courses-box {
-    float: left;
-    width: 100%;
-    margin-top: 40px;
-    position: relative;
-}
+
 
 .more-featured:before,
 .team-img-lhs:before {
@@ -2171,59 +2166,40 @@ a {
     filter: invert(1);
     opacity: 0;
 }
-
-.courses-box ul {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.courses-box li {
-    /* float: left; */
+.more-courese-btn{
     width: 100%;
-    padding: 25px;
-    /* text-align: center; */
-    z-index: 1;
-    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    background: #3c3ddc;
+    border-radius: 5px;
+    padding: 30px;
+    color: #fff;
+    text-transform: capitalize;position: relative;
 }
-.courses-box ul li:nth-child(2) .courses-inn .cour-img:before{
-    background: rgba(248,148,31,.07);
+.more-courese-btn::before{position: absolute;content: "";top: -56px;right: 0;background: url(../images/shapes/1.svg);background-size: cover;width: 150px;height: 61%;}
+.more-courese-btn::after{position: absolute;content: "";bottom: -54px;right: -70px;background: url(../images/shapes/2.svg);background-size: cover;width: 104px;height: 74px;transform: scale(-1);}
+.more-courese-btn .m-courses{
+    font-size: 16px;
 }
-.courses-box ul li:nth-child(3) .courses-inn .cour-img:before{
-    background: rgba(26,182,157,.07);
+.more-courese-btn .m-text{
+    font-size: 16px;
+    padding: 8px 0;
 }
-.courses-box ul li:nth-child(4) .courses-inn .cour-img:before{
-    background: rgba(238,74,98,.07);
-}
-.courses-box ul li:nth-child(5) .courses-inn .cour-img:before{
-    background: #f7f3ff;
-}
-.courses-box ul li:nth-child(6) .courses-inn .cour-img:before{
-    background: #fff0f8;
-}
-.courses-box ul li:nth-child(7) .courses-inn .cour-img:before{
-    background: #f3f4fe;
-}
-.courses-box ul li:nth-child(8) .courses-inn .cour-img:before{
-    background: #f1fbff;
+.more-courese-btn i{}
+.more-courese-btn a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
 }
 
-.courses-box ul li:last-child:after {
-    position: absolute;
-    content: "";
-    z-index: -1;
-    background: url(../images/shapes/2.svg);
-    background-size: cover;
-    right: 0;
-    width: 80px;
-    height: 55px;
-    filter: invert(1);
-    transform: scale(-1) translateX(-34px);
-    bottom: -17px;
-    opacity: .6;
-}
 .courses-inn:hover i{
     opacity: 0;
 }
@@ -2232,7 +2208,7 @@ a {
     box-shadow: 0 3px 21px 0 #00000014;
     background: #fff;
     /* border-radius: 10px; */
-    padding: 30px 30px 30px 50px;
+    padding: 30px;
     text-transform: capitalize;
     transition: all 0.5s ease;
     position: relative;
@@ -2274,11 +2250,11 @@ a {
     height: 100%;
     z-index: -1;
     transition: all 0.6s ease;
-    transform: rotate(-0.4deg);
+    transform: rotate(-3deg);
     /* border: 1px solid #e5dfec; */
     background: #3c3ddc;
     border-radius: 5px;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 

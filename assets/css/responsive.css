@@ -431,9 +431,7 @@
 		width: 100%;
 	}
 
-	.courses-box:before {
-		display: none;
-	}
+	
 
 	.join-edu:before {
 		display: none;
@@ -1054,9 +1052,7 @@
 		padding: 80px 0 80px 0;
 	}
 
-	.courses-box li {
-		width: 50%;
-	}
+	
 
 	.comm-center-p {
 		padding: 16px 15px 0 15px;
@@ -1937,18 +1933,12 @@
 		padding-right: 10px;
 	}
 
-	.courses-box li {
-		width: 100%;
-		padding-bottom: 15px;
-	}
+	
 
 	.popular-courses .comm-center-btn {
 		margin-top: 40px;
 	}
 
-	.courses-box {
-		margin-top: 30px;
-	}
 
 	.sub2-img {
 		left: 0;
