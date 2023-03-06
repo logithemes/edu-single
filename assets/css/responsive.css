@@ -88,14 +88,7 @@
 		padding-left: 0;
 	}
 
-	.num-coundown img {
-		float: unset;
-		margin-right: 0;
-		left: 0;
-		top: 0;
-		margin-bottom: 20px;
-	}
-
+	
 	.courses-details .container {
 		max-width: 1000px;
 	}
@@ -550,17 +543,14 @@
 		padding-bottom: 36px;
 	}
 
-	.num-coundown i {
+	.num-text i {
 		font-size: 35px;
 	}
 
-	.num-coundown span {
+	.num-text {
 		padding-top: 0;
 	}
 
-	.num-coundown img {
-		margin-bottom: 15px;
-	}
 
 	.learnpress-img img {
 		height: 300px;
@@ -1629,10 +1619,6 @@
 		display: none;
 	}
 
-	.blg-post-text p {
-		padding: 13px 0 25px 0;
-		font-size: 14px;
-	}
 
 	.blg-post-text a {
 		margin: 0 auto;
