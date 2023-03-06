@@ -14,12 +14,7 @@ $(document).ready(function () {
     $(".video").addClass("act");
    })
 
-   //CATEGORIES 
-   $(".courses-inn").mousemove(function(){
-    $(".courses-inn").removeClass("act");
-    $(this).addClass("act");
-   });
-    
+
   //BANNER4
   $(".programs-inner").mousemove(function(){
     $(".programs-inner").removeClass("act");
