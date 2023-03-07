@@ -885,10 +885,10 @@ a {
 .edu-banner {
     float: left;
     width: 100%;
-    padding: 200px 0 100px 0;
+    padding: 220px 0 220px 0;
     position: relative;
     overflow: hidden !important;
-    background-color: #fff;
+    background: linear-gradient(357deg, #f0f0f0, #fff);
 }
 
 
@@ -1292,35 +1292,37 @@ a {
 .programs{
     float: left;
     width: 100%;
-    background: #F3F5FF;
+    /* background: #e7e8ff; */
+    margin-top: -70px;
 }
 
 .programs-main{
     width: 100%;
     float: left;
-    padding: 40px 0;
-    border-radius: 30px;
+    /* padding: 20px 0; */
+    /* border-radius: 30px; */
     position: relative;
+    background: #f4f4ff;
 }
 
+.programs-main ul{display: flex;align-items: center;justify-content: center;margin: 0;}
 
 .programs-main li{
     width: 100%;
+    border-radius: 5px;
+    /* padding: 0 5px; */
 }
 .programs-inner{
     color: #fff;
-    text-transform: capitalize;
     float: left;
     width: 100%;
-    display: flex;
     position: relative;
-    padding: 30px;
-    border-radius: 5px;
+    padding: 20px;
     transition: all 0.5s ease;
     overflow: hidden;
     text-transform: inherit;
-    align-items: center;
-    justify-content: space-between;
+    text-align: center;
+    border-right: 1px solid #ddd;
 }
 .programs-inner h4{
     color: #000;
@@ -1328,6 +1330,7 @@ a {
     font-size: 19px;
     margin: 0;
     line-height: 24px;
+    margin-top: 20px;
 }
 .programs-inner p{
     margin: 10px 0 0 0;
@@ -1336,11 +1339,11 @@ a {
 
 
 .programs-inner img{
-    width: 50px;
+    width: 45px;
 }
 .act.programs-inner img{filter: brightness(0.5);}
 .programs-inner span{
-    display: block;
+    /* display: block; */
 }
 
 .programs-inner .bg-shapes, .programs-inner .bg-shapes::before{position: absolute;top: -30px;right: -30px;background: #FFF8F8;width: 0;height: 0;border-radius: 50%;transition: all 0.5s ease;}
@@ -1382,8 +1385,9 @@ a {
     position: relative;
     justify-content: center;
     float: left;
-    width: 20%;
-    padding-top: 38px;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
 }
 
 .tab-courses ul {
@@ -1394,7 +1398,7 @@ a {
 .tab-courses li {
     float: left;
     cursor: pointer;
-    padding: 0 10px 14px 12px;
+    padding: 0 40px;
     position: relative;
     display: flex;
     align-items: center;
@@ -1403,18 +1407,19 @@ a {
 }
 
 .tab-courses span {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     position: relative;
     color: #000;
     float: left;
     transition: all 0.4s ease;
     background: #ffffff;
-    padding: 67px 30px 20px 30px;
+    /* padding: 0 20px; */
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    text-transform: uppercase;
 }
 
 .tab-courses span:hover img {
@@ -1426,7 +1431,8 @@ a {
 .tab-courses span.act {
     font-weight: 500;
     background: #fff;
-    box-shadow: 0 15px 30px rgb(9 16 29 / 6%);
+    /* box-shadow: 0 15px 30px rgb(9 16 29 / 6%); */
+    transform: skewX(-1deg);
 }
 
 .tab-courses span.act img {
@@ -1437,18 +1443,17 @@ a {
 .tab-courses span.act:before {
     position: absolute;
     content: "";
-    top: 6px;
+    top: 0;
     right: 0;
     bottom: 0;
-    left: 7px;
-    width: 90%;
-    height: 90%;
-    border: 1.5px dashed #fec1c1;
-    border-radius: 5px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 
 .tab-courses img {
-    width: 38px;
+    width: 29px;
     z-index: 1;
     position: absolute;
     filter: grayscale(0.9);
@@ -1466,7 +1471,7 @@ a {
 
 .top-rated {
     float: left;
-    width: 75%;
+    width: 100%;
     padding: 25px 22px 0 22px;
     position: relative;
     display: none;
@@ -1518,7 +1523,7 @@ a {
 
 .top-rated li {
     float: left;
-    width: 50%;
+    width: 33.333%;
     padding: 15px 15px 0 15px;
     position: relative;
     transition: all 0.4s ease;
@@ -1591,6 +1596,7 @@ a {
     width: 100%;
     height: 100%;
     background: none;
+    z-index: 1;
 }
 
 
@@ -1831,7 +1837,7 @@ a {
 .about-us {
     float: left;
     width: 100%;
-    padding: 200px 0 150px 0;
+    padding: 220px 0 150px 0;
     overflow: hidden !important;
 }
 
@@ -2168,7 +2174,7 @@ a {
     float: left;
     margin-bottom: 50px;
     z-index: 1;
-
+    border: 1px dashed #525fe1;
 }
 
 .bg-p-courses{
@@ -2919,6 +2925,9 @@ float: left;
     font-style: normal;
     line-height: 40px;
     padding: 0;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: #d80d0d;
 }
 
 .num-text span {
@@ -3185,6 +3194,7 @@ float: left;
     margin-top: 40px;
     float: left;
     width: 100%;
+    position: relative;
 }
 
 .blog-post-box:hover span {
