@@ -1707,11 +1707,11 @@
 	}
 
 	.tab-courses span,
-    .tab-courses span.act {
+    .tab-courses li span.act {
 		font-size: 12px;
 	}
 
-	.tab-courses img {
+	.tab-courses-img img {
 		width: 30px;
 	}
 
@@ -2255,7 +2255,7 @@
 		border-right: 0;
 	}
 
-	.tab-courses span.act:before {
+	.tab-courses li.act:before {
 		border: 0;
 	}
 
@@ -2271,7 +2271,7 @@
 		padding-right: 10px;
 	}
 
-	.tab-courses img {
+	.tab-courses img img {
 		display: none;
 	}
 
@@ -2280,7 +2280,7 @@
 		margin-top: -15px;
 	}
 
-	.tab-courses span.act {
+	.tab-courses li.act {
 		background: #3c3ddc;
 		color: #fff;
 	}

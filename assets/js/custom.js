@@ -98,8 +98,8 @@ $(document).ready(function () {
 
 
     //TAB LATEST COURSES 
-    $(".tab-courses span").on("click", function () {
-        $(".tab-courses span").removeClass("act");
+    $(".tab-courses li").on("click", function () {
+        $(".tab-courses li").removeClass("act");
         $(this).addClass("act");
         var _add = $(this).attr("id");
         $(".top-rated").hide();
