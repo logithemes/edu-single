@@ -9,6 +9,15 @@
 /*-------------------------------------------------------*/
 @media screen and (max-width:1200px) {
 
+	.blog-img img{border-radius: 5px 5px  0 0;}
+	.post-content{padding: 0;margin-top: 0;}
+
+	.top-Courses{padding: 15px;}
+	.abt-student-img .back-shape1{display: none;}
+
+	.popular-courses{overflow:hidden !important;}
+	.pricing-plan{overflow:hidden !important;}
+
 	.edu-ban-lhs .text-img {
 		display: none;
 	}
@@ -65,6 +74,7 @@
 
 	.edu-ban-lhs h1 {
 		padding-right: 0;
+		font-size: 50px;line-height: 60px;
 	}
 
 	.auther-in-txt {
@@ -177,13 +187,14 @@
 	}
 
 	.edu-banner {
-		padding: 170px 0 160px 0;
+		padding-top: 200px;
+		padding-bottom: 130px;
 	}
 
 
 
 	.menu li {
-		padding: 0 16px;
+		padding: 0 15px;
 	}
 
 	.pop-up2 {
@@ -202,7 +213,7 @@
 	.abt-student-img {
 		width: 100%;
 		left: 0;
-		margin-top: 50px;
+		margin-top: 80px;
 	}
 
 	.abt-student-img .student-img,
@@ -234,7 +245,7 @@
 	}
 
 	.about-us {
-		padding: 110px 0;
+		padding: 110px 0 90px 0;overflow: hidden;
 	}
 
 	.edu-ban-lhs:before {
@@ -308,6 +319,15 @@
 /* When the browser is 992px to all small screens,below css will be applied.
 /*-------------------------------------------------------*/
 @media screen and (max-width: 992px) {
+	.team-development{display: none;}
+	.trending-courses::after{display: none;}
+	.who-we-are-text h3::before{display: none;}
+	.more-courese-btn{height: 100%;}
+	.courses-inn{margin-bottom: 30px;}
+	.more-courese-btn::before{display: none;}
+	.programs-main ul{display: block;}
+	.programs-main li{width: 50%;float: left;}
+	.programs-inner{padding: 20px;}
 
 	.move-cursor1, .move-cursor2{display: none;}
 	
@@ -451,7 +471,7 @@
 
 	.we-are {
 		padding-right: 0;
-		margin-top: 20px;
+		margin-top: 90px;
 	}
 
 	.we-are img {
@@ -487,7 +507,7 @@
 
 
 	.who-we-are {
-		padding-bottom: 80px;
+		padding-bottom: 100px;
 		padding-top: 80px;
 	}
 
@@ -1003,20 +1023,10 @@
 	.edu-ban-lhs .tit {
 		text-align: center;
 	}
-
-	.edu-ban-rhs img {
-		height: 400px;
-		width: 100%;
-		object-fit: contain;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
 	
 
 	.edu-banner {
-		padding: 140px 0;
+		padding: 150px 0 100px 0;
 	}
 
 	.edu-ban-lhs a,
@@ -1030,7 +1040,7 @@
 	}
 
 	.comm-p-t-b {
-		padding: 80px 0;
+		padding: 90px 0;
 	}
 
 	.pricing-plan {
@@ -1063,15 +1073,10 @@
 
 	.more-featured {
 		padding-bottom: 80px;
-		padding-top: 80px;
+		padding-top: 90px;
 	}
-
-	.fea-pa-top {
-		padding: 50px 0 80px 0;
-	}
-
 	.blog-post {
-		padding: 0 0 80px 0;
+		padding: 80px 0 80px 0;
 	}
 
 	.edu-ban-rhs {
@@ -1436,9 +1441,7 @@
 		width: 100%;
 	}
 
-	.fea-pa-top {
-		padding: 50px 0 80px 0;
-	}
+
 
 	.joun-edu-search input {
 		border-radius: 0 0 0 10px;
